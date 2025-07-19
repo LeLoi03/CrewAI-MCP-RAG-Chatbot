@@ -1,0 +1,9 @@
+2025-07-19 11:23:12,729 - 6064 - INFO - --- MCP Server Process Starting ---
+2025-07-19 11:23:12,729 - 6064 - INFO - Python executable: D:\Python\python.exe
+2025-07-19 11:23:12,729 - 6064 - INFO - System Path: ['D:\\NEW-ARCHITECTURE-SERVER-TS\\services\\conference-tool-mcp', 'D:\\NEW-ARCHITECTURE-SERVER-TS\\services\\conference-tool-mcp\\app', 'D:\\NEW-ARCHITECTURE-SERVER-TS\\services\\ai-core-py', 'D:\\Python\\python312.zip', 'D:\\Python\\DLLs', 'D:\\Python\\Lib', 'D:\\Python', 'C:\\Users\\Le Loi\\AppData\\Roaming\\Python\\Python312\\site-packages', 'D:\\Python\\Lib\\site-packages', 'D:\\Python\\Lib\\site-packages\\win32', 'D:\\Python\\Lib\\site-packages\\win32\\lib', 'D:\\Python\\Lib\\site-packages\\Pythonwin']
+2025-07-19 11:23:16,031 - 6064 - INFO - Successfully imported FastMCP and tool logic.
+2025-07-19 11:23:16,031 - 6064 - INFO - Initializing FastMCP server...
+2025-07-19 11:23:16,062 - 6064 - INFO - FastMCP server 'ConferenceInformationService' initialized.
+2025-07-19 11:23:16,066 - 6064 - INFO - Tool 'get_conferences' has been registered.
+2025-07-19 11:23:16,066 - 6064 - INFO - Server is now ready and entering the stdio run loop. Waiting for input...
+2025-07-19 11:23:21,527 - 6064 - INFO - Server run loop has exited cleanly.

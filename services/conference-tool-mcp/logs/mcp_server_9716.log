@@ -1,0 +1,13 @@
+2025-07-19 11:32:25,673 - 9716 - INFO - --- MCP Server Process Starting ---
+2025-07-19 11:32:25,673 - 9716 - INFO - Python executable: D:\Python\python.exe
+2025-07-19 11:32:25,673 - 9716 - INFO - System Path: ['D:\\NEW-ARCHITECTURE-SERVER-TS\\services\\conference-tool-mcp', 'D:\\NEW-ARCHITECTURE-SERVER-TS\\services\\conference-tool-mcp\\app', 'D:\\NEW-ARCHITECTURE-SERVER-TS\\services\\ai-core-py', 'D:\\Python\\python312.zip', 'D:\\Python\\DLLs', 'D:\\Python\\Lib', 'D:\\Python', 'C:\\Users\\Le Loi\\AppData\\Roaming\\Python\\Python312\\site-packages', 'D:\\Python\\Lib\\site-packages', 'D:\\Python\\Lib\\site-packages\\win32', 'D:\\Python\\Lib\\site-packages\\win32\\lib', 'D:\\Python\\Lib\\site-packages\\Pythonwin']
+2025-07-19 11:32:28,440 - 9716 - INFO - Successfully imported FastMCP and tool logic.
+2025-07-19 11:32:28,440 - 9716 - INFO - Initializing FastMCP server...
+2025-07-19 11:32:28,456 - 9716 - INFO - FastMCP server 'ConferenceInformationService' initialized.
+2025-07-19 11:32:28,471 - 9716 - INFO - Tool 'get_conferences' has been registered.
+2025-07-19 11:32:28,471 - 9716 - INFO - Server is now ready and entering the stdio run loop. Waiting for input...
+2025-07-19 11:32:33,874 - 9716 - INFO - Processing request of type CallToolRequest
+2025-07-19 11:32:33,881 - 9716 - INFO - Tool 'get_conferences' called with searchQuery: rank=B&country=Vietnam
+2025-07-19 11:32:34,724 - 9716 - INFO - Tool 'get_conferences' finished. Result preview: [{"id": "da9a4b1a-d3d3-4c26-88d3-eef6f962db83", "title": "International Conference on Computational ...
+2025-07-19 11:32:34,750 - 9716 - INFO - Processing request of type ListToolsRequest
+2025-07-19 11:32:42,393 - 9716 - INFO - Server run loop has exited cleanly.

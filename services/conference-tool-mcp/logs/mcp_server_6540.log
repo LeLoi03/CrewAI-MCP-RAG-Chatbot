@@ -1,0 +1,11 @@
+2025-07-19 11:19:03,469 - 6540 - INFO - --- MCP Server Process Starting ---
+2025-07-19 11:19:03,469 - 6540 - INFO - Python executable: D:\Python\python.exe
+2025-07-19 11:19:03,469 - 6540 - INFO - System Path: ['D:\\NEW-ARCHITECTURE-SERVER-TS\\services\\conference-tool-mcp', 'D:\\NEW-ARCHITECTURE-SERVER-TS\\services\\conference-tool-mcp\\app', 'D:\\NEW-ARCHITECTURE-SERVER-TS\\services\\ai-core-py', 'D:\\Python\\python312.zip', 'D:\\Python\\DLLs', 'D:\\Python\\Lib', 'D:\\Python', 'C:\\Users\\Le Loi\\AppData\\Roaming\\Python\\Python312\\site-packages', 'D:\\Python\\Lib\\site-packages', 'D:\\Python\\Lib\\site-packages\\win32', 'D:\\Python\\Lib\\site-packages\\win32\\lib', 'D:\\Python\\Lib\\site-packages\\Pythonwin']
+2025-07-19 11:19:06,532 - 6540 - INFO - Successfully imported FastMCP and tool logic.
+2025-07-19 11:19:06,532 - 6540 - INFO - Initializing FastMCP server...
+2025-07-19 11:19:06,556 - 6540 - INFO - FastMCP server 'ConferenceInformationService' initialized.
+2025-07-19 11:19:06,561 - 6540 - INFO - Tool 'get_conferences' has been registered.
+2025-07-19 11:19:06,561 - 6540 - INFO - Server is now ready and entering the stdio run loop. Waiting for input...
+2025-07-19 11:19:11,789 - 6540 - INFO - Processing request of type CallToolRequest
+2025-07-19 11:19:25,067 - 6540 - INFO - Processing request of type CallToolRequest
+2025-07-19 11:19:48,254 - 6540 - INFO - Server run loop has exited cleanly.

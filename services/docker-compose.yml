@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  # Service Gateway (TypeScript)
+  gateway:
+    build: ./services/gateway-ts
+    container_name: gateway_ts_service
+    ports:
+      - "3000:3000" # Expose port 3000 to the host machine
+    environment:
+      - AI_CORE_URL=http://ai-core:8000 # URL to communicate with the AI Core service
+    networks:
+      - chatbot_network
+    restart: unless-stopped
+
+  # Service AI Core (Python/CrewAI)
+  ai-core:
+    build: ./services/ai-core-py
+    container_name: ai_core_py_service
+    ports:
+      - "8000:8000" # Expose FastAPI port
+    environment:
+      # This URL now points to the new MCP service container
+      - CONFERENCE_MCP_URL=http://conference-tool-mcp:8001
+      - GEMINI_API_KEY=${GEMINI_API_KEY} # Pass API key from host .env file
+    depends_on:
+      - conference-tool-mcp # Ensure MCP service starts first
+    networks:
+      - chatbot_network
+    restart: unless-stopped
+
+  # NEW: Service MCP Tool (Python/MCP)
+  conference-tool-mcp:
+    build: ./services/conference-tool-mcp-py
+    container_name: conference_tool_mcp_service
+    ports:
+      - "8001:8001" # Expose MCP FastAPI port for debugging
+    environment:
+      - CONFERENCE_API_URL=${CONFERENCE_API_URL} # Pass the real API URL
+    networks:
+      - chatbot_network
+    restart: unless-stopped
+
+networks:
+  chatbot_network:
+    driver: bridge

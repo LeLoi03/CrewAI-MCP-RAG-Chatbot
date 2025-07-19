@@ -1,0 +1,2 @@
+# conference-tool-mcp-py/requirements.txt
+mcp
